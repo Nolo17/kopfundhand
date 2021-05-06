@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="description" content="Architekt´ Brandschutzsachverständige Karsten Segtrop">
+        <meta name="author" content="Nora Segtrop">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="./ressources/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="./styles/kopfundhand.css">
+        <title>kopfundhand</title>
+    </head>
+    <body>
+           <div class="container-fluid" id='header'>
+              <div class='row justify-content-between'>
+              <div class="navbar-header col-10 col-md-8">
+                <a class="navbar-brand" id='logoa'>
+                    <figure>
+                    <img src="./ressources/img/kh_logo.png" class="d-inline-block align-top" alt="logo" id='logo'>
+                  </figure>
+                </a>
+              </div>
+              <div class="headerlinkdiv nav navbar-nav col-5 col-md-2 text-center">
+                <a class="active headerlink" id='projektlink'>Projekte</a>
+              </div>
+              <div class="headerlinkdiv nav navbar-nav col-5 col-md-2 text-center">
+                <a class="active headerlink" id='kontaktlink'>Kontakt</a>
+              </div>
+            </div>
+          </div>
+          <main>
+        <div class='container-fluid'>
+            <div class='row justify-content-between'>
+              <div class='col-10 col-md-2' id='name'>
+                <h4>Büro für Architektur und Brandschutz</h4>
+              </div>
+                <div class='col-12 col-md-10' id='kontakt'>
+                  <p>Dipl.Ing. Karsten Segtrop </p>
+                    <form id='kontaktform'>
+                      <div class='inputgroup' >
+                        <p class='col-10 col-md-8' id='mailhead'>Ihre Nachricht</p>
+                      </div>
+                    <div class='inputgroup'>
+                      <input type='text' class="form-control col-8 col-md-5" placeholder='Name' id='enquirer'>
+                    </div>
+                    <div class='inputgroup'>
+                      <input type='text' class="form-control col-8 col-md-5" placeholder='Betreff' id='subject'>
+                    </div>
+                    <div class='inputgroup'>
+                      <input type='email' class="form-control col-8 col-md-5" placeholder='Ihre Emailadresse' id='email'>
+                    </div>
+                    <div class='input group '>
+                      <textarea placeholder='Nachricht' class="form-control col-10 col-md-8" rows='10' id='message'></textarea>
+                    </div>
+                    <div>
+                      <button class='btn' id='sendemail'>Senden</button>
+                    </div>
+                  </form>
+                  <div class="modal fade" id="emailsendModal" tabindex="-1" role="dialog" aria-labelledby="emailModal" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                        </div>
+                        <div class="modal-body" id='emailmodalbody'>
+                          <h4>Vielen Dank für Ihre Nachricht.</h4>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p>Telefon: +49 (0)30 30 1122 01 </p>
+                  <p>Mobil: +49 (0)160 95 808 785 </p>
+                  <p>Manfred-von-Richthofenstraße 141 12101 Berlin </p>
+                </div>  
+                  <div class='col-12 col-md-9 text-right justify-content-between' id='projekte'>
+                    <div class='container'></div>
+                    <div class= 'row justify-content-between align-items-center'>
+                      <div class='col-md-6 hvrbox'>
+                          <img src='./ressources/img/BauamtSchwerin.jpg' alt='Bau- und Liegenschaftamt Schwerin' class='projektbild'>
+                          <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">Bau- und Liegenschaftsamt Schwerin.</div>
+                          </div>
+                        </div> 
+                        <div class='col-md-6 hvrbox'>
+                          <img src='./ressources/img/UdK.jpg' alt='Medienhaus der Universität der Künste Berlin<' class='projektbild'>
+                          <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">Medienhaus der Universität der Künste Berlin</div>
+                          </div>
+                        </div> 
+                      </div>
+                      <div class= 'row justify-content-center align-items-center'>
+                        <div class='col-md-8 hvrbox'>
+                          <img src='./ressources/img/BE_NeuesHaus.jpg' alt='Berliner Ensemble Neues Haus' class='projektbild'>
+                          <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">Berliner Ensemble - Neues Haus</div>
+                          </div>
+                        </div>
+                          <div class='col-md-4 hvrbox'>
+                            <img src='./ressources/img/Haus10.jpg' alt='Bild Hausburgstraße 10' class='projektbild'>
+                            <div class="hvrbox-layer_top">
+                              <div class="hvrbox-text">Hausburgstraße 10 Berlin</div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                        <div class= 'row justify-content-center align-items-center'>
+                        <div class='col-md-4 hvrbox'>
+                          <img src='./ressources/img/Kolwitzstr102.jpg' alt='Kollwitzstraße 102' class='projektbild'>
+                          <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">Kollwitzstraße 102 Berlin</div>
+                          </div>
+                        </div>
+                        <div class='col-md-8 hvrbox'>
+                          <img src='./ressources/img/BE_KleinesHaus.jpg' alt='Berliner Ensemble Kleines Haus' class='projektbild'>
+                          <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">Berliner Ensemble - Kleines Haus</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class= 'row justify-content-center align-items-center'>
+                        <div class='col-md-11 hvrbox'>
+                          <img src='./ressources/img/JVA_Neumuenster.jpg' alt='Justizvollzugsanstalt Neumünster' class='projektbild'>
+                          <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">Justizvollzugsanstalt Neumünster</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class= 'row justify-content-center align-items-center'>
+                        <div class='col-md-6 hvrbox'>
+                          <img src='./ressources/img/Torhaus_RdS.jpg' alt='Raum der Stille' class='projektbild'>
+                          <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">Raum der Stille im Torhaus Nord Brandenburger Tor Berlin </div>
+                          </div>
+                        </div>
+                        <div class='col-md-6 hvrbox'>
+                          <img src='./ressources/img/Schoenhauser69.jpg' alt='Schönhauser Allee 69' class='projektbild'>
+                          <div class="hvrbox-layer_top">
+                            <div class="hvrbox-text">Schönhauser Allee 69 Berlin</div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>   
+        </div>     
+      </div>             
+    
+    </main>
+      <footer>
+        <p class='text-center'>© kopfundhand 2021</p>
+    </footer> 
+    <script type = "text/javascript" src='./ressources/jquery/jquery.min.js'> </script>
+    <script type="application/javascript" src="./ressources/bootstrap/bootstrap.min.js"></script>
+  <script type = "text/javascript" src='./js/main.js'> </script>
+    </body>
+</html>
